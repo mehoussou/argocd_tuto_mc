@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: https://github.com/mehoussou/argocd_tuto_mc.git
     targetRevision: HEAD
-    path: environments/staging/my-app
+    path: environments/staging/apps
   destination:
     server: https://kubernetes.default.svc
 # added sync policy to automate the change from github to argocd without go to click on sync anytime
